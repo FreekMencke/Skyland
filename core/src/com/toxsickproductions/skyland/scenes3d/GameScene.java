@@ -49,6 +49,7 @@ public class GameScene extends InputAdapter implements Screen {
         particleUtils = new ParticleUtils();
         particleUtils.initBillBoardParticles(camera);
 
+        //adding generators
         world = WorldGenerator.generateBaseWorld(false, false);
         cloudGenerator = new CloudGenerator(world, 30);
         environment = WorldGenerator.generateBaseEnvironment(new Vector3(-6, 14, 6));

@@ -1,0 +1,55 @@
+{
+  "com.badlogic.gdx.graphics.Color": {
+    white: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 1
+    },
+    black: {
+      a: 1,
+      b: 0,
+      g: 0,
+      r: 0
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+    default: {
+      "font": font32,
+      "fontColor": white
+    },
+    black: {
+      "font": font32,
+      "fontColor": black
+    },
+    console: {
+      "font": console,
+      "fontColor": white
+    },
+    64: {
+      "font": font64,
+      "fontColor": white
+    },
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    default: {
+      "up": "button_unpressed",
+      "down": "button_pressed",
+      "font": font32,
+      "pressedOffsetY": -4
+    },
+    64: {
+      "up": "button_unpressed",
+      "down": "button_pressed",
+      "font": font64,
+      "pressedOffsetY": -4
+    },
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+    default: {
+      "font": font32,
+      "checkboxOn": checkbox_checked,
+      "checkboxOff": checkbox_unchecked
+    },
+  },
+}

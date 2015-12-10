@@ -1,4 +1,4 @@
-# Skyland
+# Skyland(old)
 I made this as a test project to learn how libGDX 3D API works. This may not be the best way to use everything, but it works great. Feel free to use this project for learning, or build a game out of it. If you do build a game, please let me know because I'm curious!
 
 ####Current features
